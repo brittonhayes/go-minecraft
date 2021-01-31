@@ -12,7 +12,7 @@
 
 Install with the go get command
 
-```go
+```shell
 go get github.com/brittonhayes/go-minecraft
 ```
 
