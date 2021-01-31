@@ -5,6 +5,7 @@ type Client struct {
 	*WorldService
 }
 
+// NewClient creates a new instance of the Minecraft client
 func NewClient(host string, password string) *Client {
 	return &Client{
 		PlayerService: NewPlayerService(host, password),

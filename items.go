@@ -1,5 +1,7 @@
 package go_minecraft
 
+// Item represents an item that can be
+// added to a player's inventory
 type Item string
 
 const (
