@@ -1,0 +1,9 @@
+package go_minecraft
+
+type Item string
+
+const (
+{{range . -}}
+    {{ .Name }} Item = "{{.ID}}"
+{{end -}}
+)
