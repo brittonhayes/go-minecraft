@@ -3,6 +3,7 @@ package main
 import (
 	"context"
 	"fmt"
+
 	minecraft "github.com/brittonhayes/go-minecraft"
 )
 

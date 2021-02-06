@@ -1,4 +1,4 @@
-package go_minecraft
+package items
 
 // Item represents an item that can be
 // added to a player's inventory
